@@ -1,0 +1,324 @@
+
+. open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* nav style */
+nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+
+}
+
+.btn-primary{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 24px 60px;
+    border-radius: 14px;
+    border: none;
+   
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    color: #4E47FF;
+}
+nav ul li{
+    list-style: none;
+}
+/* banner title */
+.banner-title{
+    font-style:italic;
+    font-size: 65px;
+    font-weight: bold;
+}
+.banner{
+    padding: 152px 600px ;
+    justify-content: center;
+    text-align: center;
+
+}
+.banner2{
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    height: 328px;
+    margin: 100px auto;
+    
+}
+/* header */
+.header{
+    background-image: url('./Assets/Hero-bg.png');
+}
+.section-title{
+    font-size: 45px;
+    font-weight: bold;
+}
+.section-description{
+    font-size: 24px;
+    color:  #2524327b;
+    
+
+}
+/* about styles */
+.about{
+    border-radius: 14px;
+    text-align: center;
+    
+    
+
+}
+/* main styles */
+main{
+     
+     margin-top: 130px;
+     margin-left: 50px;
+     margin-right: 50px;
+     margin-bottom: 130px;
+    
+}
+.banneer-pic{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+.banner-content2{
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 450px;
+    text-align: left;
+}
+.content3{
+    font-weight: bold;
+    font-size: 38px;
+    color: black;
+    text-align: center;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    font-style: initial;
+    
+}
+.item-des{
+    font-size: 20px;
+    color: #0000007c;
+    
+}
+.about-item{
+  
+
+}
+.banner3{
+    background-color: #4d47ff18;
+    border-radius: 25px;
+    margin-top: 130px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 30px;
+    padding: 30px 60px;
+    
+}
+
+.skill-heading{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.about-skills{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.about-skill{
+    display: flex;
+    
+    
+    
+}
+.skill{
+    background-color: whitesmoke;
+    border-radius: 25px;
+    text-align: left;
+    width: 366px;
+    height: 243px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+.skills-container{
+    margin-top: 0px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 130px;
+
+}
+.focus{
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 14px;
+    margin-top: 130px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 130px;
+    padding-top: 71px;
+    padding-bottom: 71px;
+    padding-right: 150px;
+    padding-left: 150px;
+
+}
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.focus-des{
+    font-size: 20px;
+    color: #0000007b;
+
+}
+.Focus-detiles{
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.focus-picture{
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
+}
+.touch-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.touch-titli{
+    text-align: left;
+    font-size: 97px;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.input{
+
+}
+.email{
+    font-size: 18px;
+    font-weight: lighter;
+    width: 497px;
+    height: 20px;
+
+}
+.name{
+    font-size: 18px;
+    font-weight: lighter;
+
+
+}
+.message{
+    font-size: 18px;
+    font-weight: lighter;
+
+}
+.email2{
+    font-size: 20px;
+    color: #00000076;
+    background-color: whitesmoke;
+    border-radius: 14px;
+    width: 497px;
+    height: 50px;
+
+}
+.name2{
+    font-size: 20px;
+    color: #00000076;
+    background-color: whitesmoke;
+    border-radius: 14px;
+    width: 497px;
+    height: 50px;
+    
+
+}
+.message2{
+    font-size: 20px;
+    color: #00000076;
+    background-color: whitesmoke;
+    border-radius: 14px;
+    width: 497px;
+    height: 115px;
+    text-align: left;
+    padding-left: 32px;
+    padding-bottom: 20px;
+    padding-right: 32px;
+    padding-top: 20px;
+    
+
+}
+.button{
+    width: 497px;
+    height: 50px;
+    text-align: center;
+    border-radius: 14px;
+    padding-bottom: 20px;
+
+}
+.touch-bar{
+    margin-top: 130px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 130px
+
+}
+.logo-headding{
+    font-size: 100px;
+    font-weight: bolder;
+    color: #4E47FF;
+    display: flex;
+    justify-content: center;
+}
+.logo-dic{
+    font-size: 18px;
+    color: #8987A1;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo-items3{
+    font-size: 18px;
+    color: #8987A1;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.logo3{
+    justify-content: center;
+    background-color: whitesmoke;
+    padding-top: 71px;
+    padding-bottom: 71px;
+    padding-right: 680px;
+    padding-left: 680px;
+
+}
+/*.main-colour{*/
+    background-color: whitesmoke;
+}
